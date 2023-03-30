@@ -1,0 +1,369 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+body{font-family:"Poppins";font-weight:300;color:#9c9c9c;background:#0d0d11}[class*=__container]{max-width:1310px;margin:0 auto;padding:0px 15px}.wrapper{min-height:100%;display:flex;flex-direction:column;overflow:hidden}.page{flex:1 1 auto;margin-top:110px}.header{position:fixed;width:100%;top:0;left:0;z-index:50;background-color:rgba(13,13,17,.95);position:relative}.header__container{display:flex;min-height:116px;align-items:center;padding-top:5px;padding-bottom:5px;column-gap:35px}.header__menu{flex:1 1 auto}.menu__list{display:flex;justify-content:flex-end;column-gap:35px}.exit_li{display:none}.menu__icon{display:none}.menu__icon a{color:#fff}.menu__link:hover{text-decoration:underline}.menu__link{font-size:16px;line-height:1.62;color:#fff}.card-header__text{font-size:18px;line-height:1.55}.card-header__quantity{background:rgba(129,129,139,.3);width:30px;height:30px;border-radius:50%;display:flex;justify-content:center;align-items:center;font-size:14px;font-weight:500}.card__header{color:#fff;display:flex;gap:5px;align-items:center}.button{display:inline-block;font-size:14px;font-weight:500;color:#fff;font-family:"Poppins";background:#3d96f4;padding:18px 30px;border-radius:50px;letter-spacing:2px;transition:500ms ease}.button:hover{background:#0f69b1}.contact{background:rgba(129,129,139,.2)}.contact:hover{background:rgba(110,110,110,.5)}.section_tittle{font-family:"Poppins";font-style:normal;font-weight:500;font-size:51.2px;line-height:61px;color:#fff;margin-bottom:43px}.section_text{font-family:"Poppins";font-style:normal;font-weight:300;font-size:18px;line-height:27px;color:#9c9c9c;margin-bottom:36px}.business_text{padding-right:101px}.business__container,.services__container,.help__container{position:relative;display:flex;justify-content:space-between;gap:32px;padding-top:45px;margin-bottom:190px;align-items:center}.business__container.business__container:before,.services__container.business__container:before,.help__container.business__container:before{content:"";background:url(../img/eba6bfa1a8f902208594.png);position:absolute;left:-15px;top:153px;width:122px;height:122px}.section_block{padding-right:10px;flex:0 0 50%}.section_links{display:flex;gap:30px}.block_images{display:flex;gap:55px;padding-right:25px}.img_col{width:240px;display:flex;flex-direction:column;gap:30px;overflow:hidden}.img_big,.img_small{width:100%;object-fit:cover}.partners__container{margin-bottom:160px}.partners_text{font-family:"Poppins";font-style:normal;font-weight:300;font-size:14px;line-height:22px;text-align:center;letter-spacing:1px;text-transform:uppercase;color:#fff;margin-bottom:25px}.partners_block{display:flex;justify-content:space-between;gap:30px}.partner_img{width:100%}.services_link{display:inline-block;padding:11px 19px;font-family:"Poppins";font-style:normal;font-weight:300;font-size:10.8px;line-height:17px;letter-spacing:2px;text-transform:uppercase;color:#9c9c9c;border:1px solid rgba(129,129,139,.2);border-radius:12px;margin-bottom:19px;transition:500ms ease}.services_link:hover{color:#fff;border:1px solid #fff}.services__container{gap:120px}.section_articles{display:flex;gap:32px}.articles_col1,.articles_col2{display:flex;flex-direction:column;gap:32px;width:315px}.articles_col1{margin-top:48px}.article_box{background:rgba(129,129,139,.1);border-radius:30px;overflow:hidden;padding:55px 25px 60px 25px}.article_img_box{width:75.59px;height:75.59px;background:rgba(0,137,255,.3);padding:12px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;border-radius:25px}.article_tittle{font-family:"Poppins";font-style:normal;font-weight:400;font-size:19.2px;line-height:27px;color:#fff;margin-bottom:10px}.article_text{font-family:"Poppins";font-style:normal;font-weight:300;font-size:16px;line-height:24px;color:#81818b}.section_block,.section_articles{flex:1 1 50%}.block_images{width:50%}.help_img_box{display:flex;justify-content:flex-start;width:50%;object-fit:cover}.big_img_box,.small_img_box{display:block;object-fit:cover}.big_img_box{max-width:72%}.small_img_box img{max-width:28%}.help__container{gap:64px}.help_img_box{display:flex;align-items:flex-end}.list:last-child{margin-bottom:0}.list{padding-left:42px;display:inline-block;position:relative;margin-bottom:21px}.list:before{content:"";position:absolute;left:0;top:-5px;background:url(../img/d8f76b69939457bc8299.png);width:32px;height:32px;object-fit:cover}.level__container{margin-bottom:96px}.level__container,.level_cards{display:flex;justify-content:space-between;align-items:center;gap:32px}.level_cards{gap:32px}.level_col1,.level_col2{display:flex;flex-direction:column;flex:0 1 50%;gap:32px}.level_img_box{flex:0 1 33.33%}.level_article{padding:40px;background:rgba(129,129,139,.1);border-radius:30px}.level_tittle{margin-bottom:32px}.level_text{padding-right:31px;margin-bottom:0}.info_block{padding:96px 0;display:flex;flex-basis:100%;position:relative}.clients_block{width:768px}.clients_link_block{margin-bottom:25px}.client_tittle_block{margin-bottom:12px}.info_action{display:block;position:absolute;bottom:96px;right:0}.clients_wrapper{display:flex;justify-content:space-between;gap:48px;margin-bottom:96px}.client_article{padding:64px 40px;background:rgba(129,129,139,.1);border-radius:30px}.client_head{display:flex;gap:16px;margin-bottom:33px}.client_img_box{width:68px;height:68px;overflow:hidden}.client_img_box img{object-fit:cover}.client_name_box{display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.client_name{font-family:"Poppins";font-style:normal;font-weight:300;font-size:16px;line-height:24px;color:#fff;margin-bottom:7px}.client_company{font-family:"Poppins";font-style:normal;font-weight:300;font-size:14px;line-height:22px;color:#9c9c9c}.client_article_tittle{margin-bottom:34px}.client_article_text{font-family:"Poppins";font-style:normal;font-weight:300;font-size:16px;line-height:24px;color:#9c9c9c;margin-bottom:35px}.client_article_rate{max-width:315px;min-height:20px;overflow:hidden}.client_article_rate img{object-fit:cover}.news_box{gap:48px}.news{background:rgba(129,129,139,.1);border-radius:24px;overflow:hidden}.news_head{position:relative;z-index:1}.news_head img{object-fit:cover;width:100%;height:194px}.prof{display:block;padding:9px 10px;background:rgba(129,129,139,.5);border-radius:0px 10px 0px 0px;position:absolute;left:0;bottom:0;color:#fff;font-family:"Poppins";font-style:normal;font-weight:300;font-size:14px;line-height:22px}.news_info{padding:36px 26px 40px 26px}.news_date{font-family:"Poppins";font-style:normal;font-weight:300;font-size:16px;line-height:24px;color:rgba(129,129,139,.9);margin-bottom:20px}.news_tittle{font-family:"Poppins";font-style:normal;font-weight:400;font-size:19.2px;line-height:27px;color:#fff;margin-bottom:30px}.news_text{margin-bottom:21px}.news_link{font-family:"Poppins";font-style:normal;font-weight:300;font-size:14px;line-height:22px;color:#3d96f4}.news_link:hover{text-decoration:underline}.ready{margin:96px 0;padding:52px 40px;background:rgba(129,129,139,.1);border-radius:30px;display:flex;align-items:center}.ready_box,.ready_action_box{flex-basis:50%;text-align:center}.ready_tittle{font-family:"Poppins";font-style:normal;font-weight:400;font-size:32px;line-height:45px;color:#fff;margin-bottom:16px}.ready_tittle,.ready_text{width:350px;margin:0 auto}.ready_action_box{display:flex;justify-content:center;align-items:center;gap:32px}.footer_box{display:flex;justify-content:space-between;gap:64px;padding:160px 0}.footer_soc_box{width:29.854962%}.soc_logo{height:40px;margin-bottom:32px}.soc_logo img{object-fit:cover}.soc_text{font-family:"Poppins";font-style:normal;font-weight:300;font-size:16px;line-height:24px;color:#9c9c9c;padding-right:32px;margin-bottom:33px}.soc_links{margin-left:-16px}.soc_links a{padding-left:16px}.pages_tittle,.utility_tittle,.subscribe_tittle{font-family:"Poppins";font-style:normal;font-weight:500;font-size:20px;line-height:24px;letter-spacing:1px;color:#fff;margin-bottom:30px}.pages_links,.utility_links{font-family:"Poppins";font-style:normal;font-weight:300;font-size:16px;line-height:26px;padding-right:40px}.pages_links li,.utility_links li{margin-bottom:24.39px}.pages_links a,.utility_links a{transition:500ms ease;color:#9c9c9c}.pages_links a:hover,.utility_links a:hover{color:#fff;text-decoration:underline}.subscribe_text{width:302px;padding-right:0}.email{display:inline-block;width:224.77px;height:54px;border:1px solid rgba(129,129,139,.3);border-radius:50px;background:#000;padding:14.5px 33px;color:inherit}.subscribe_action{display:inline-block;margin-left:16px;width:136.12px;height:52px;background:#3d96f4;border-radius:50px;letter-spacing:2px;color:#fff;font-weight:500;font-size:14px;line-height:22px;transition:500ms ease}.subscribe_action:hover{background:#0f69b1}.copy{height:112px;line-height:112px;font-weight:300;font-size:14px;text-align:center;color:#9c9c9c;border-top:1px solid rgba(129,129,139,.2)}@media(max-width: 990px){.services__container{margin-bottom:45px}.business__container,.help__container,.partners__container,.level__container{margin-bottom:100px}.info_block{padding-top:0}.services__container{flex-direction:column;flex:1 1 100%;gap:30px;align-items:flex-start;padding-top:10px}.section_block,.section_articles{width:100%}.section_articles{justify-content:space-between;gap:20px}.articles_col1,.articles_col2{flex:1 1 50%;gap:20px}.section_tittle{font-size:43px;line-height:53px;margin-bottom:10px}.business_text{padding-right:40px;margin-bottom:20px}.section_links{gap:15px}.button{padding:15px 20px}.help__container{flex-direction:column-reverse;gap:10px}.clients_wrapper{gap:20px}.client_article{padding:34px 20px}.list_block li{display:block}.footer_box{flex-wrap:wrap;gap:20px}.footer_pages_box{flex:0 1 45%}.footer_utility_box{flex:0 1 45%}.footer_soc_box{flex:1 0 100%}.footer_subscribe_box{flex:1 0 100%}.subscribe_form{display:flex;justify-content:space-between}.email{width:60%}.subscribe_action{width:30%}.soc_text{margin-bottom:15px}.soc_logo{margin-bottom:15px}.copy{height:60px;line-height:60px}}@media(max-width: 1080px){.level_article{padding:20px}.level_text{padding-right:0}}@media(max-width: 940px){.level__container{flex-wrap:wrap}.level_img_box{margin:0 auto}.soc_links a img{width:28px;height:29px}}@media(max-width: 815px){.menu__icon,.exit_li{display:block}.exit_li{position:absolute;top:0;right:0;padding:30px 50px}.exit{font-size:30px}.menu__list{background:rgba(0,0,0,.9);transition:1s ease;position:absolute;display:flex;flex-direction:column;justify-content:space-around;align-items:center;gap:25px;width:100%;padding:40px 0;left:0;top:-300px}.ready{flex-direction:column;gap:30px}}@media(max-width: 770px){.business__container{flex-direction:column}.business_text{padding-right:0}.block_images{width:100%;justify-content:center;padding-right:0}.clients_wrapper{flex-wrap:wrap}.pages_links li,.utility_links li{margin-bottom:10px}.ready{margin:40px 0}.clients_wrapper{margin-bottom:20px}.help_img_box{flex:1 1 100%;justify-content:center}}@media(max-width: 660px){.section_articles,.level_cards{flex-direction:column}.articles_col1,.articles_col2{flex:1 0 100%;width:100%}.level_img_box{flex:1 1 100%}.level_img_box img{width:100%}}
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
