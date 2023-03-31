@@ -364,6 +364,7 @@ body{
 .info_block{
   padding: 96px 0;
   display: flex;
+  flex-wrap: wrap;
   flex-basis: 100%;
   position: relative;
 }
@@ -379,7 +380,7 @@ width: 768px;
 .info_action{
   display: block;
   position: absolute;
-  bottom: 96px;
+  bottom: 40px;
   right: 0;
 }
 .clients_wrapper{
@@ -647,6 +648,13 @@ width: 768px;
   border-top: 1px solid rgba(129, 129, 139, 0.2);
 }
 @media (max-width: 990px){
+  .partners_block{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .page{
+    margin-top: 0;
+  }
   .services__container {
     margin-bottom: 45px;
   }
@@ -705,6 +713,8 @@ width: 768px;
   .footer_box{
     flex-wrap: wrap;
     gap: 20px;
+    padding-top: 0;
+    padding-bottom: 20px;
   }
   .footer_pages_box{
     flex: 0 1 45%;
@@ -744,6 +754,9 @@ width: 768px;
   }
   .level_text{
     padding-right: 0;
+  }
+  .services__container{
+    gap: 50px;
   }
 }
 //сворачивание меню
@@ -796,6 +809,13 @@ width: 768px;
   }
 }
 @media (max-width: 770px){
+  .info_action{
+    bottom: 20px;
+    right: 0;
+  }
+  .info_block{
+    padding-bottom: 40px;
+  }
   .business__container{
     flex-direction: column;
   }
@@ -844,6 +864,35 @@ width: 768px;
     }
   }
 }
+@media (max-width: 600px){
+  .header__container{
+    column-gap: 15px;
+  }
+}
+@media (max-width: 450px){
+  .header__button{
+    display: none;
+  }
+  .header__container{
+    column-gap: 10px;
+  }
+}
 @media (max-width: 320px){
-
+  .partners__container, .level__container{
+    margin-bottom: 50px;
+  }
+  .ready_tittle, .ready_text {
+    width: 280px;
+  }
+  .subscribe_action{
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .email, .subscribe_action{
+    height: 40px;
+  }
+  .subscribe_action{
+    width: 110px;
+  }
 }
